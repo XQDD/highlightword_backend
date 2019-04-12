@@ -1,0 +1,12 @@
+server:
+  port: 9332
+  servlet:
+    context-path: /hightlightword
+spring:
+  #设置显示颜色
+  output:
+    ansi:
+      enabled: always
+logging:
+  level:
+    root: info
